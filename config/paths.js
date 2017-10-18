@@ -59,7 +59,7 @@ function getServedPath(appPackageJson) {
 
 //add flexible
 const flexibleStr = (function(){
-    return fs.readFileSync('node_modules/lm-flexible/build/changeRem-min.js', 'utf-8');
+    return fs.readFileSync('node_modules/flash-flexible/build/changeRem-min.js', 'utf-8');
 })();
 
 const cdnConfig = require(path.resolve('config/cdnPath'));
