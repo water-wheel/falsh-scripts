@@ -1,6 +1,6 @@
 {
   "name": "flash-scripts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "flash for node script",
   "bin": {
     "flash-scripts": "./index.js"

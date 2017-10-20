@@ -26,8 +26,6 @@ const routerCreateFun = (configResulte) => {
 
             setTimeout(() => {
 
-                // const resulteData = fs.readFileSync(__dirname + dataPath, 'utf-8');
-            
                 res.send(JSON.parse(resulteData))
 
             }, delay)
@@ -59,11 +57,11 @@ server.use(middlewares)
 server.use(router)
 
 server.listen(3001, () => {
-    //console.log('mock server has start')
+    console.log('mock server has restart')
 })
 
 //watch config.js file 
-const watchedFile = path.resolve('mock/config');
+// const watchedFile = path.resolve('mock/config');
 // fs.watch(watchedFile, (err, file) => {
 
 // 	//console.log('trigger watch and will restart mock server ...')
